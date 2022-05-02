@@ -1,6 +1,6 @@
 # This is a basic workflow that is manually triggered
 
-name: Greeting workflow
+name: Use Cloud SDK to list service accounts
 
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
