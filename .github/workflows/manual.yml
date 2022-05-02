@@ -26,5 +26,5 @@ jobs:
     - name: 'Set up Cloud SDK'
       uses: 'google-github-actions/setup-gcloud@v0'
      
-    - name: 'Build app via Cloudbuild'
-      run: 'gcloud builds submit --tag gcr.io/calm-analog-341912/assignment-3'
+    - name: 'Deploy app to Cloudrun'
+      run: 'gcloud run deploy github-to-gcd --image=gcr.io/calm-analog-341912/assignment-3 --region=us-central1 --allow-unauthenticated'
