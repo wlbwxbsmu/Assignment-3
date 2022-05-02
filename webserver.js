@@ -5,6 +5,6 @@ app.get('/', function(req, res) {
     res.sendfile('index.html');
 });
 
-app.listen(80);
+app.listen(8080);
 
 console.log('Start Webserver');
